@@ -86,10 +86,13 @@
     });
   }
 
-  /* --- Contact form (validation + success message) --- */
+  /* --- Contact form (validation + Formspree submit + success message) --- */
   function initContactForm() {
     var form = document.getElementById("contact-form");
     if (!form) return;
+
+    var formEndpoint = form.getAttribute("action");
+    if (!formEndpoint) return;
 
     var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -142,15 +145,47 @@
         return;
       }
 
-      if (successEl) {
-        successEl.hidden = false;
-        successEl.setAttribute("role", "status");
-      }
       if (submitBtn) {
         submitBtn.disabled = true;
-        submitBtn.textContent = "Message sent";
+        submitBtn.textContent = "Sending...";
       }
-      form.reset();
+      var originalSuccessText = successEl ? successEl.textContent : "";
+      if (successEl) {
+        successEl.hidden = true;
+        successEl.classList.remove("contact-form-success--error");
+      }
+
+      fetch(formEndpoint, {
+        method: "POST",
+        body: new FormData(form),
+        headers: { Accept: "application/json" }
+      })
+        .then(function (response) {
+          if (response.ok) {
+            if (successEl) {
+              successEl.textContent = originalSuccessText;
+              successEl.hidden = false;
+              successEl.setAttribute("role", "status");
+            }
+            if (submitBtn) {
+              submitBtn.textContent = "Message sent";
+            }
+            form.reset();
+          } else {
+            throw new Error("Form submission failed");
+          }
+        })
+        .catch(function () {
+          if (submitBtn) {
+            submitBtn.disabled = false;
+            submitBtn.innerHTML = '<span class="btn-icon" aria-hidden="true">✈</span> Send Message';
+          }
+          if (successEl) {
+            successEl.textContent = "Something went wrong. Please try again or call (786) 972-7110.";
+            successEl.classList.add("contact-form-success--error");
+            successEl.hidden = false;
+          }
+        });
     });
   }
 
