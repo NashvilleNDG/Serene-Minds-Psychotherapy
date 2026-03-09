@@ -131,6 +131,117 @@
     gap: 32px;
   }
   .footer-brand { grid-column: 1 / -1; }
+
+  /* --- Tablet/mobile: center page text (exclude hero sections, meet-therapist, and bullets) --- */
+  #main-content section:not(.hero):not([class*="page-hero"]):not(.blog-hero):not(.blog-post-hero):not(.meet-therapist) {
+    text-align: center;
+  }
+  #main-content section:not(.hero):not([class*="page-hero"]):not(.blog-hero):not(.blog-post-hero):not(.meet-therapist) ul,
+  #main-content section:not(.hero):not([class*="page-hero"]):not(.blog-hero):not(.blog-post-hero):not(.meet-therapist) ol {
+    text-align: left;
+  }
+  /* Keep section subtitles and block content centered; lists stay left */
+  #main-content section:not(.hero):not([class*="page-hero"]):not(.blog-hero):not(.blog-post-hero):not(.meet-therapist) .section-subtitle,
+  #main-content section:not(.hero):not([class*="page-hero"]):not(.blog-hero):not(.blog-post-hero):not(.meet-therapist) .section-cta {
+    text-align: center;
+  }
+
+  /* --- Tablet/mobile: Connect section – center all content --- */
+  .connect-section .section-label,
+  .connect-section .section-title,
+  .connect-section .connect-desc,
+  .connect-section .connect-follow-label {
+    text-align: center;
+  }
+  .connect-section .connect-desc {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .connect-section .social-icons {
+    justify-content: center;
+  }
+  .connect-section .connect-content {
+    text-align: center;
+  }
+  .connect-section .booking-card {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* --- Tablet/mobile: Quick Inquiry form – left-align labels and fields --- */
+  .connect-section .inquiry-form-wrap,
+  .connect-section .inquiry-form-card {
+    text-align: left;
+  }
+  .connect-section .inquiry-form label,
+  .connect-section .inquiry-form input,
+  .connect-section .inquiry-form textarea {
+    text-align: left;
+  }
+  .connect-section .inquiry-form .btn-full {
+    text-align: left;
+  }
+  .connect-section .inquiry-confidential {
+    text-align: left;
+  }
+
+  /* --- Tablet/mobile: footer center-aligned --- */
+  .site-footer .footer-grid {
+    text-align: center;
+  }
+  .site-footer .footer-col {
+    text-align: center;
+  }
+  .site-footer .footer-brand {
+    text-align: center;
+  }
+  .site-footer .footer-brand .footer-logo {
+    display: inline-block;
+  }
+  .site-footer .footer-tagline,
+  .site-footer .footer-badge,
+  .site-footer .footer-heading,
+  .site-footer .footer-social-label {
+    text-align: center;
+  }
+  .site-footer .footer-tagline {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .site-footer .footer-social {
+    text-align: center;
+  }
+  .site-footer .footer-social-list {
+    justify-content: center;
+  }
+  .site-footer .footer-links,
+  .site-footer .footer-contact {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .site-footer .footer-links li,
+  .site-footer .footer-contact li {
+    text-align: center;
+  }
+  .site-footer .footer-bottom {
+    text-align: center;
+  }
+  .site-footer .footer-bottom-inner {
+    justify-content: center;
+    align-items: center;
+  }
+  .site-footer .footer-bottom-left {
+    text-align: center;
+    align-items: center;
+  }
+  .site-footer .footer-legal {
+    justify-content: center;
+  }
 }
 
 /* --- Mobile nav: show hamburger --- */
@@ -170,6 +281,21 @@
   }
   .nav-phone { justify-content: center; }
   .header-inner { padding: 12px 24px; }
+
+  /* --- Tablet/mobile: logo centered in header --- */
+  .header-inner {
+    justify-content: center;
+    position: relative;
+  }
+  .header-inner .logo {
+    margin: 0;
+  }
+  .header-inner .nav-toggle {
+    position: absolute;
+    right: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
 
 /* --- Mobile (max 768px) --- */
