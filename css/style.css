@@ -2607,6 +2607,7 @@ a.contact-card-teal:hover {
   line-height: 1.2;
 }
 .contact-expect-arrow {
+  display: none; /* arrows removed per design */
   color: var(--color-teal);
   font-size: 18px;
   font-weight: 700;

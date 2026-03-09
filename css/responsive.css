@@ -11,6 +11,11 @@
     --section-padding: 60px;
   }
 
+  /* Hide breadcrumb so header is directly followed by hero/content */
+  .breadcrumb {
+    display: none;
+  }
+
   .hero-inner {
     grid-template-columns: 1fr;
     gap: 40px;
@@ -84,6 +89,45 @@
   .contact-book-visual { order: -1; }
   .contact-book-calendar-icon { font-size: 48px; }
 
+  /* --- Tablet/mobile: contact page cards – icon above text, center-aligned --- */
+  .contact-section .contact-cards {
+    align-items: stretch;
+  }
+  .contact-section .contact-card {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 12px;
+  }
+  .contact-section .contact-card-content {
+    align-items: center;
+    text-align: center;
+  }
+
+  /* --- Tablet/mobile: contact page form – left-align labels and fields --- */
+  .contact-section .contact-form-card,
+  .contact-section .contact-form {
+    text-align: left;
+  }
+  .contact-section .contact-form-field label,
+  .contact-section .contact-form-field-radio legend {
+    text-align: left;
+  }
+  .contact-section .contact-form-field input,
+  .contact-section .contact-form-field textarea {
+    text-align: left;
+  }
+  .contact-section .contact-form-radios {
+    justify-content: flex-start;
+  }
+  .contact-section .contact-form-title {
+    text-align: left;
+  }
+  .contact-section .contact-form-note,
+  .contact-section .contact-faq-link {
+    text-align: left;
+  }
+
   .service-row {
     grid-template-columns: 1fr;
     gap: 32px;
@@ -93,6 +137,10 @@
   .service-row-alt .service-row-image { order: 2; }
   .service-row-content { padding: 0; }
   .service-row-image { order: 2; }
+  .service-row-header {
+    justify-content: center;
+    text-align: center;
+  }
   .img-placeholder { height: 320px; }
   .approaches-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -111,6 +159,15 @@
   }
   .pricing-card-right { order: 2; }
   .pricing-card-left { order: 1; }
+  .pricing-card-left {
+    text-align: center;
+  }
+  .pricing-card-price {
+    justify-content: center;
+  }
+  .pricing-card-period {
+    text-transform: capitalize;
+  }
   .pricing-card-amount { font-size: 64px; }
   .insurance-cards { grid-template-columns: 1fr; }
   .benefits-grid { grid-template-columns: repeat(2, 1fr); }
@@ -125,6 +182,42 @@
   .blog-featured-content { padding: 32px 24px; }
   .blog-grid { grid-template-columns: repeat(2, 1fr); }
   .home-blogs-grid { grid-template-columns: repeat(2, 1fr); }
+
+  /* --- Tablet/mobile: blog page – center featured card and grid cards --- */
+  .blog-featured-section .blog-featured-content {
+    text-align: center;
+    align-items: center;
+  }
+  .blog-featured-section .blog-featured-content .blog-badge {
+    align-self: center;
+  }
+  .blog-featured-section .blog-featured-meta {
+    justify-content: center;
+  }
+  .blog-featured-section .btn-featured-cta {
+    align-self: center;
+  }
+  .blog-grid-section .blog-card-body {
+    text-align: center;
+  }
+  .blog-grid-section .blog-card-body .blog-badge {
+    display: inline-block;
+  }
+  .blog-grid-section .blog-card-link {
+    display: inline-block;
+  }
+  .blog-contact-social {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .blog-contact-social-label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  .blog-contact-section .blog-social-list {
+    justify-content: center;
+  }
 
   .footer-grid {
     grid-template-columns: 1fr 1fr;
@@ -416,6 +509,18 @@
   .blog-contact-title { font-size: 28px; }
   .blog-contact-row { flex-direction: column; gap: 32px; }
   .blog-contact-info { flex-direction: column; gap: 16px; }
+  .blog-contact-social {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .blog-contact-social-label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  .blog-contact-section .blog-social-list {
+    justify-content: center;
+  }
 
   .blog-post-title { font-size: 28px; }
   .blog-post-body { padding: 32px 20px 0; }
