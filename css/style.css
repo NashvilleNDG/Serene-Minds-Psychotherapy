@@ -2179,8 +2179,9 @@ a:focus-visible { outline: 2px solid var(--color-gold); outline-offset: 2px; }
 }
 .blog-contact-social {
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   flex-wrap: wrap;
-  align-items: center;
   gap: 16px;
 }
 .blog-contact-social-label {
