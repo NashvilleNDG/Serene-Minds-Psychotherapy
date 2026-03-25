@@ -335,6 +335,14 @@
   .site-footer .footer-legal {
     justify-content: center;
   }
+  .dep-section { padding: 72px 0; }
+  .dep-two-col { grid-template-columns: 1fr; gap: 24px; }
+  .dep-card-grid,
+  .dep-feature-grid,
+  .dep-testimonial-grid { grid-template-columns: 1fr 1fr; }
+  .dep-checklist { grid-template-columns: 1fr; }
+  .dep-hero .hero-title { font-size: clamp(42px, 10vw, 52px); }
+  .dep-hero-subhead { font-size: 21px; }
 }
 
 /* --- Mobile nav: show hamburger --- */
@@ -541,6 +549,14 @@
     text-align: center;
   }
   .footer-legal { justify-content: center; }
+  .dep-card-grid,
+  .dep-feature-grid,
+  .dep-testimonial-grid { grid-template-columns: 1fr; }
+  .dep-step { grid-template-columns: 38px 1fr; gap: 12px; }
+  .dep-step-num { width: 38px; height: 38px; }
+  .dep-hero .hero-title { font-size: clamp(38px, 11vw, 46px); }
+  .dep-hero-subhead { font-size: 19px; }
+  .dep-hero-cta { width: 100%; text-align: center; }
 }
 
 /* --- Small mobile (max 480px) --- */
