@@ -343,6 +343,7 @@
   .dep-checklist { grid-template-columns: 1fr; }
   .dep-hero .hero-title { font-size: clamp(42px, 10vw, 52px); }
   .dep-hero-subhead { font-size: 21px; }
+  .page-breakup-landing .dep-hero { background-position: 72% center; }
 }
 
 /* --- Mobile nav: show hamburger --- */
@@ -557,10 +558,12 @@
   .dep-hero .hero-title { font-size: clamp(38px, 11vw, 46px); }
   .dep-hero-subhead { font-size: 19px; }
   .dep-hero-cta { width: 100%; text-align: center; }
+  .page-breakup-landing .dep-hero { background-position: 82% center; }
 }
 
 /* --- Small mobile (max 480px) --- */
 @media (max-width: 480px) {
+  .page-breakup-landing .dep-hero { background-position: 88% center; }
   .logo-text { font-size: 14px; }
   .logo-cred { display: block; margin-top: 2px; }
   .hero-badge { font-size: 12px; padding: 6px 12px; }
