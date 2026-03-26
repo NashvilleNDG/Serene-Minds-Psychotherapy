@@ -570,6 +570,31 @@
   .btn { padding: 12px 24px; font-size: 15px; }
 }
 
+/* Landing final CTAs: footer/trust lines left on tablet & desktop; centered on phones only */
+@media (min-width: 769px) {
+  .page-depression-landing .final-cta .dep-trust-line,
+  .page-breakup-landing .final-cta .dep-trust-line,
+  .page-anxiety-landing .final-cta .dep-trust-line,
+  .page-breakup-landing .final-cta .final-cta-desc.dep-trust-line,
+  .page-anxiety-landing .final-cta .final-cta-desc.dep-trust-line,
+  .page-breakup-landing .final-cta .final-cta-mailto,
+  .page-anxiety-landing .final-cta .final-cta-mailto {
+    text-align: left;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-depression-landing .final-cta .dep-trust-line,
+  .page-breakup-landing .final-cta .dep-trust-line,
+  .page-anxiety-landing .final-cta .dep-trust-line,
+  .page-breakup-landing .final-cta .final-cta-desc.dep-trust-line,
+  .page-anxiety-landing .final-cta .final-cta-desc.dep-trust-line,
+  .page-breakup-landing .final-cta .final-cta-mailto,
+  .page-anxiety-landing .final-cta .final-cta-mailto {
+    text-align: center;
+  }
+}
+
 /* --- Reduced motion --- */
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
