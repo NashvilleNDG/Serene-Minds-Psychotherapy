@@ -1055,7 +1055,7 @@ a:focus-visible { outline: 2px solid var(--color-gold); outline-offset: 2px; }
 .dep-section { padding: 96px 0; }
 .dep-hero {
   min-height: 100vh;
-  background-image: linear-gradient(rgba(8, 30, 28, 0.72), rgba(8, 30, 28, 0.72)), url("../images/depression-hero.png");
+  background-image: linear-gradient(rgba(8, 30, 28, 0.60), rgba(8, 30, 28, 0.60)), url("../images/depression-hero.png");
   background-size: cover;
   background-position: center;
 }
