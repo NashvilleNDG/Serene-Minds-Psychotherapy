@@ -575,10 +575,13 @@
   .page-depression-landing .final-cta .dep-trust-line,
   .page-breakup-landing .final-cta .dep-trust-line,
   .page-anxiety-landing .final-cta .dep-trust-line,
+  .page-bipolar-landing .final-cta .dep-trust-line,
   .page-breakup-landing .final-cta .final-cta-desc.dep-trust-line,
   .page-anxiety-landing .final-cta .final-cta-desc.dep-trust-line,
+  .page-bipolar-landing .final-cta .final-cta-desc.dep-trust-line,
   .page-breakup-landing .final-cta .final-cta-mailto,
-  .page-anxiety-landing .final-cta .final-cta-mailto {
+  .page-anxiety-landing .final-cta .final-cta-mailto,
+  .page-bipolar-landing .final-cta .final-cta-mailto {
     text-align: left;
   }
 }
@@ -587,10 +590,13 @@
   .page-depression-landing .final-cta .dep-trust-line,
   .page-breakup-landing .final-cta .dep-trust-line,
   .page-anxiety-landing .final-cta .dep-trust-line,
+  .page-bipolar-landing .final-cta .dep-trust-line,
   .page-breakup-landing .final-cta .final-cta-desc.dep-trust-line,
   .page-anxiety-landing .final-cta .final-cta-desc.dep-trust-line,
+  .page-bipolar-landing .final-cta .final-cta-desc.dep-trust-line,
   .page-breakup-landing .final-cta .final-cta-mailto,
-  .page-anxiety-landing .final-cta .final-cta-mailto {
+  .page-anxiety-landing .final-cta .final-cta-mailto,
+  .page-bipolar-landing .final-cta .final-cta-mailto {
     text-align: center;
   }
 }
