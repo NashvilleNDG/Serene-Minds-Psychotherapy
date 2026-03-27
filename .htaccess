@@ -1,0 +1,8 @@
+# 301 redirects — legacy blog URLs → clean URLs (Apache mod_alias)
+Redirect 301 /blog-understanding-anxiety.html https://serenemindspsychotherapy.com/understanding-anxiety-therapy.html
+Redirect 301 /blog-power-mindfulness.html https://serenemindspsychotherapy.com/mindfulness-mental-health.html
+Redirect 301 /blog-navigating-relationships.html https://serenemindspsychotherapy.com/navigating-relationships-therapy.html
+Redirect 301 /blog-helping-child-stress.html https://serenemindspsychotherapy.com/helping-child-anxiety-stress.html
+Redirect 301 /blog-self-care-practices.html https://serenemindspsychotherapy.com/self-care-mental-health.html
+Redirect 301 /blog-breaking-free-depression.html https://serenemindspsychotherapy.com/breaking-free-depression-therapy.html
+Redirect 301 /blog-postpartum-depression.html https://serenemindspsychotherapy.com/postpartum-depression-therapy.html
