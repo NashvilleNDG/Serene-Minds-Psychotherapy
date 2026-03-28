@@ -2169,6 +2169,7 @@ a:focus-visible { outline: 2px solid var(--color-gold); outline-offset: 2px; }
 .blog-badge-parenting { background: #e8f5e9; color: #2e7d32; }
 .blog-badge-selfcare { background: #fff8e1; color: #c9a84c; }
 .blog-badge-depression { background: #ede7f6; color: #6a1b9a; }
+.blog-badge-telehealth { background: #e3f2fd; color: #1565c0; }
 .blog-featured-title {
   font-family: var(--font-heading);
   font-size: 32px;
