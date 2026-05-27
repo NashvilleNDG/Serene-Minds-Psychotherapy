@@ -375,6 +375,12 @@ a:focus-visible { outline: 2px solid var(--color-gold); outline-offset: 2px; }
 .hero .hero-desc {
   color: rgba(255, 255, 255, 0.95);
 }
+.hero .hero-desc a {
+  color: var(--color-white);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.hero .hero-desc a:hover { color: var(--color-gold); }
 .hero .hero-subhead {
   font-family: var(--font-body);
   font-size: var(--size-h3);
