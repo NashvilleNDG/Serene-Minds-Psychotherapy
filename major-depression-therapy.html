@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18036821590"></script>
+  <!-- Google tag (gtag.js): SDK deferred to window.load; events queue in dataLayer until SDK is ready (keeps TBT low for Core Web Vitals) -->
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'AW-18036821590');
     gtag('config', 'G-7L6S6KZLVZ');
+    window.addEventListener('load', function(){
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=AW-18036821590';
+      document.head.appendChild(s);
+    });
   </script>
   <script>
   window.addEventListener('load', function() {

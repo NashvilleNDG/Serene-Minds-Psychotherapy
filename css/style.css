@@ -336,7 +336,7 @@ a:focus-visible { outline: 2px solid var(--color-gold); outline-offset: 2px; }
 .hero {
   position: relative;
   background: var(--color-cream);
-  background-image: url("../images/Home-hero.png");
+  background-image: url("../images/Home-hero.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -968,14 +968,14 @@ a:focus-visible { outline: 2px solid var(--color-gold); outline-offset: 2px; }
 .page-hero:not(.page-hero-services) .page-hero-subtitle { color: rgba(255, 255, 255, 0.9); }
 
 .page-hero-contact {
-  background-image: url("../images/contact-bg.png");
+  background-image: url("../images/contact-bg.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .page-hero-about {
-  background-image: url("../images/about-bg.png");
+  background-image: url("../images/about-bg.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1061,7 +1061,7 @@ a:focus-visible { outline: 2px solid var(--color-gold); outline-offset: 2px; }
 .dep-section { padding: 96px 0; }
 .dep-hero {
   min-height: 100vh;
-  background-image: linear-gradient(rgba(8, 30, 28, 0.60), rgba(8, 30, 28, 0.60)), url("../images/depression-hero.png");
+  background-image: linear-gradient(rgba(8, 30, 28, 0.60), rgba(8, 30, 28, 0.60)), url("../images/depression-hero.webp");
   background-size: cover;
   background-position: center;
 }
@@ -1392,7 +1392,7 @@ a:focus-visible { outline: 2px solid var(--color-gold); outline-offset: 2px; }
   display: flex;
   align-items: center;
   background: var(--color-cream);
-  background-image: url("../images/services-bg.png");
+  background-image: url("../images/services-bg.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1658,7 +1658,7 @@ a:focus-visible { outline: 2px solid var(--color-gold); outline-offset: 2px; }
 .insurance-hero {
   position: relative;
   background: var(--insurance-cream, #f8f5f0);
-  background-image: url("../images/pricing-bg.png");
+  background-image: url("../images/pricing-bg.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2081,7 +2081,7 @@ a:focus-visible { outline: 2px solid var(--color-gold); outline-offset: 2px; }
 .blog-hero {
   position: relative;
   background: #f8f5f0;
-  background-image: url("../images/img.png");
+  background-image: url("../images/img.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
