@@ -336,7 +336,7 @@ a:focus-visible { outline: 2px solid var(--color-gold); outline-offset: 2px; }
 .hero {
   position: relative;
   background: var(--color-cream);
-  background-image: url("../images/Home-hero.webp");
+  background-image: url("../images/Home-hero-mobile.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -344,6 +344,12 @@ a:focus-visible { outline: 2px solid var(--color-gold); outline-offset: 2px; }
   min-height: 100vh;
   display: flex;
   align-items: center;
+}
+/* Desktop hero — only fetched when viewport is large enough to use the larger asset */
+@media (min-width: 769px) {
+  .hero {
+    background-image: url("../images/Home-hero.webp");
+  }
 }
 .hero::before {
   content: "";

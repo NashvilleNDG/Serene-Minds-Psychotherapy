@@ -46,8 +46,9 @@
   <meta name="twitter:image" content="https://serenemindspsychotherapy.com/images/Home-hero.webp">
 
   <link rel="icon" href="images/logo.webp" type="image/webp">
-  <!-- Preload LCP image for faster discovery -->
-  <link rel="preload" as="image" href="images/Home-hero.webp" type="image/webp">
+  <!-- Preload LCP hero image — one variant per viewport so each device only fetches its size -->
+  <link rel="preload" as="image" href="images/Home-hero-mobile.webp" type="image/webp" media="(max-width: 768px)">
+  <link rel="preload" as="image" href="images/Home-hero.webp" type="image/webp" media="(min-width: 769px)">
   <!-- Typography (loaded async to avoid render-blocking) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
