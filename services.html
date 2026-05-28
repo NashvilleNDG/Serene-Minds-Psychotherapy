@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
   <!-- Analytics (GA4 + Google Ads via gtag.js, GTM, Meta Pixel) — loaded on first interaction or after a 4s fallback to keep TBT low for Core Web Vitals -->
   <script>
@@ -26,26 +26,30 @@
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Services | Serene Minds Psychotherapy – Mental Health Care in Florida</title>
-  <meta name="description" content="Individual therapy, couples counseling, family therapy, child &amp; teen therapy, women's programs, online therapy, and clinical supervision. Evidence-based care in Florida.">
-  <meta name="keywords" content="individual therapy Florida, couples counseling Florida, family therapy, child teen therapy, online therapy Florida, clinical supervision LMHC">
+  <title>Therapy Services in Florida | Serene Minds Psychotherapy</title>
+  <meta name="description" content="Therapy services in Florida from Serene Minds Psychotherapy: individual, couples, family, teen, online therapy & clinical supervision. Call (786) 972-7110.">
+  <meta name="keywords" content="therapy services Florida, individual therapy Florida, couples counseling Florida, family therapy Florida, child teen therapy Florida, online therapy Florida, clinical supervision LMHC Florida">
   <link rel="canonical" href="https://serenemindspsychotherapy.com/services.html">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Services | Serene Minds Psychotherapy – Mental Health Care in Florida">
-  <meta property="og:description" content="Individual therapy, couples counseling, family therapy, child &amp; teen therapy, women's programs, online therapy, and clinical supervision. Evidence-based care in Florida.">
-  <meta property="og:image" content="https://serenemindspsychotherapy.com/images/logo.webp">
+  <meta property="og:title" content="Therapy Services in Florida | Serene Minds Psychotherapy">
+  <meta property="og:description" content="Therapy services in Florida from Serene Minds Psychotherapy: individual, couples, family, teen, online therapy & clinical supervision. Call (786) 972-7110.">
+  <meta property="og:image" content="https://serenemindspsychotherapy.com/images/services-bg.webp">
   <meta property="og:url" content="https://serenemindspsychotherapy.com/services.html">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Serene Minds Psychotherapy">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Services | Serene Minds Psychotherapy – Mental Health Care in Florida">
-  <meta name="twitter:description" content="Individual therapy, couples counseling, family therapy, child &amp; teen therapy, women's programs, online therapy, and clinical supervision. Evidence-based care in Florida.">
-  <meta name="twitter:image" content="https://serenemindspsychotherapy.com/images/logo.webp">
+  <meta name="twitter:title" content="Therapy Services in Florida | Serene Minds Psychotherapy">
+  <meta name="twitter:description" content="Therapy services in Florida from Serene Minds Psychotherapy: individual, couples, family, teen, online therapy & clinical supervision. Call (786) 972-7110.">
+  <meta name="twitter:image" content="https://serenemindspsychotherapy.com/images/services-bg.webp">
 
   <link rel="icon" href="images/logo.webp" type="image/webp">
+  <!-- Preload LCP hero background — one variant per viewport -->
+  <link rel="preload" as="image" href="images/services-bg-mobile.webp" type="image/webp" media="(max-width: 768px)">
+  <link rel="preload" as="image" href="images/services-bg.webp" type="image/webp" media="(min-width: 769px)">
   <!-- Typography (loaded async to avoid render-blocking) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -67,39 +71,210 @@
   <!-- End Meta Pixel Code -->
   <a href="#main-content" class="skip-link">Skip to main content</a>
 
-  <!-- Schema.org JSON-LD -->
-  <script type="application/ld+json">
+  <!-- Schema.org JSON-LD (LocalBusiness + MedicalBusiness, with service catalog) -->
+  <script type="application/ld+json" id="schema-lb-services">
   {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "@id": "https://serenemindspsychotherapy.com/#organization",
+    "@type": ["LocalBusiness", "MedicalBusiness"],
+    "@id": "https://serenemindspsychotherapy.com/#localbusiness",
     "name": "Serene Minds Psychotherapy",
-    "url": "https://serenemindspsychotherapy.com",
-    "telephone": "+1-786-972-7110",
+    "alternateName": "Serene Minds",
+    "description": "Serene Minds Psychotherapy provides licensed therapy services in Florida via secure, HIPAA-compliant telehealth. Founded by Faramroze (Fram) Sarkari, M.S., LMHC — a Licensed Mental Health Counselor and Qualified Clinical Supervisor with 20+ years of experience. Services include individual therapy, couples counseling, family therapy, teen and child therapy, women's programs, online therapy sessions, and clinical supervision for Registered Mental Health Counselor Interns, using evidence-based approaches such as CBT, DBT, mindfulness, and motivational interviewing. Sessions are available in English, Gujarati, and Hindi. Call (786) 972-7110 or email info@serenemindspsychotherapy.com. Open Monday through Saturday, 8:00 AM to 8:00 PM.",
+    "url": "https://serenemindspsychotherapy.com/services.html",
+    "telephone": "+17869727110",
     "email": "info@serenemindspsychotherapy.com",
-    "address": { "@type": "PostalAddress", "addressRegion": "FL", "addressLocality": "Florida" },
-    "openingHours": "Mo-Sa 08:00-20:00",
+    "image": "https://serenemindspsychotherapy.com/images/services-bg.webp",
+    "logo": "https://serenemindspsychotherapy.com/images/Logo-transparent.webp",
+    "currenciesAccepted": "USD",
+    "paymentAccepted": "Visa, MasterCard, American Express, Discover, Zelle, HSA, FSA",
     "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Miami",
+      "addressRegion": "FL",
+      "postalCode": "33101",
+      "addressCountry": "US"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "opens": "08:00",
+        "closes": "20:00"
+      }
+    ],
+    "areaServed": [
+      {"@type": "State", "name": "Florida"},
+      {"@type": "City", "name": "Miami"},
+      {"@type": "City", "name": "Fort Lauderdale"},
+      {"@type": "City", "name": "Tampa"},
+      {"@type": "City", "name": "Orlando"},
+      {"@type": "City", "name": "Jacksonville"}
+    ],
     "knowsLanguage": ["English", "Gujarati", "Hindi"],
+    "founder": {"@id": "https://serenemindspsychotherapy.com/#person-fram"},
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
-      "name": "Therapy Services",
+      "name": "Therapy Services in Florida",
       "itemListElement": [
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Individual Therapy" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Couples Counseling" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Family Therapy" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Child & Teen Therapy" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Women's Programs" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Online Therapy" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Clinical Supervision" } }
+        { "@type": "Offer", "itemOffered": { "@type": "MedicalTherapy", "name": "Individual Therapy", "url": "https://serenemindspsychotherapy.com/online-therapy-florida.html" } },
+        { "@type": "Offer", "itemOffered": { "@type": "MedicalTherapy", "name": "Couples Counseling", "url": "https://serenemindspsychotherapy.com/marriage-counseling-miami.html" } },
+        { "@type": "Offer", "itemOffered": { "@type": "MedicalTherapy", "name": "Family Therapy", "url": "https://serenemindspsychotherapy.com/family-therapy-florida.html" } },
+        { "@type": "Offer", "itemOffered": { "@type": "MedicalTherapy", "name": "Child & Teen Therapy", "url": "https://serenemindspsychotherapy.com/child-teen-therapy-florida.html" } },
+        { "@type": "Offer", "itemOffered": { "@type": "MedicalTherapy", "name": "Women's Programs", "url": "https://serenemindspsychotherapy.com/womens-therapy-florida.html" } },
+        { "@type": "Offer", "itemOffered": { "@type": "MedicalTherapy", "name": "Online Therapy", "url": "https://serenemindspsychotherapy.com/online-therapy-florida.html" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Clinical Supervision", "url": "https://serenemindspsychotherapy.com/clinical-supervision-florida.html" } }
       ]
-    }
+    },
+    "sameAs": [
+      "https://www.facebook.com/profile.php?id=61582372858663",
+      "https://www.instagram.com/sereneminds_psychotherapy/",
+      "https://www.tiktok.com/@sereneminds_",
+      "https://www.youtube.com/@SereneMindsPsychotherapy",
+      "https://in.pinterest.com/03xj2kch335shub2w77x537cwcyy5q"
+    ]
+  }
+  </script>
+
+  <!-- Schema.org JSON-LD (Organization) -->
+  <script type="application/ld+json" id="schema-org-services">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://serenemindspsychotherapy.com/#organization",
+    "name": "Serene Minds Psychotherapy",
+    "url": "https://serenemindspsychotherapy.com/",
+    "logo": "https://serenemindspsychotherapy.com/images/Logo-transparent.webp",
+    "description": "Serene Minds Psychotherapy is a licensed Florida psychotherapy practice providing telehealth mental health care across the state. Led by Faramroze (Fram) Sarkari, M.S., LMHC, with 20+ years of clinical experience and sessions available in English, Gujarati, and Hindi.",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+17869727110",
+      "contactType": "customer service",
+      "email": "info@serenemindspsychotherapy.com",
+      "areaServed": "US-FL",
+      "availableLanguage": ["English", "Gujarati", "Hindi"]
+    },
+    "sameAs": [
+      "https://www.facebook.com/profile.php?id=61582372858663",
+      "https://www.instagram.com/sereneminds_psychotherapy/",
+      "https://www.tiktok.com/@sereneminds_",
+      "https://www.youtube.com/@SereneMindsPsychotherapy",
+      "https://in.pinterest.com/03xj2kch335shub2w77x537cwcyy5q"
+    ]
+  }
+  </script>
+
+  <!-- Schema.org JSON-LD (WebPage) -->
+  <script type="application/ld+json" id="schema-wp-services">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://serenemindspsychotherapy.com/services.html#webpage",
+    "url": "https://serenemindspsychotherapy.com/services.html",
+    "name": "Therapy Services in Florida | Serene Minds Psychotherapy",
+    "description": "Therapy services in Florida from Serene Minds Psychotherapy: individual, couples, family, teen, online therapy & clinical supervision. Call (786) 972-7110.",
+    "inLanguage": "en-US",
+    "isPartOf": {"@id": "https://serenemindspsychotherapy.com/#organization"},
+    "about": {"@id": "https://serenemindspsychotherapy.com/#localbusiness"},
+    "primaryImageOfPage": "https://serenemindspsychotherapy.com/images/services-bg.webp",
+    "datePublished": "2026-01-01",
+    "dateModified": "2026-05-28"
   }
   </script>
 
   <!-- Schema.org BreadcrumbList -->
-  <script type="application/ld+json">
+  <script type="application/ld+json" id="schema-bc-services">
   {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://serenemindspsychotherapy.com/"},{"@type":"ListItem","position":2,"name":"Services","item":"https://serenemindspsychotherapy.com/services.html"}]}
+  </script>
+
+  <!-- Schema.org FAQPage (services FAQ — mirrors visible accordion) -->
+  <script type="application/ld+json" id="schema-faq-services">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What therapy services does Serene Minds Psychotherapy offer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Serene Minds Psychotherapy offers individual therapy, couples counseling, family therapy, child and teen therapy, women's programs, online telehealth sessions, and clinical supervision for Registered Mental Health Counselor Interns. Every service is delivered by Fram Sarkari, M.S., LMHC via secure, HIPAA-compliant video throughout Florida. Call (786) 972-7110 for a free 15-minute consultation."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What therapy approaches does Serene Minds Psychotherapy use?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Treatment is tailored to each client using evidence-based approaches including Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), Mindfulness and Meditation, Solution-Focused Therapy, Motivational Interviewing, and Rational Emotive Behavior Therapy (REBT). Fram Sarkari draws from multiple modalities to build a personalized plan for your goals."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What conditions does Serene Minds Psychotherapy treat?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Serene Minds Psychotherapy treats ADHD, PTSD, OCD, depression, bipolar disorder, panic disorder, conduct disorder, oppositional defiance, grief and bereavement, anger management, stress and anxiety, childhood trauma and abuse, intimacy issues, and more. Treatment spans adults, couples, families, teens, and children. Call (786) 972-7110 to discuss your needs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are all therapy sessions online?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Serene Minds Psychotherapy is a telehealth-only practice, so every session is conducted over a secure, HIPAA-compliant video platform. You can attend from anywhere in Florida using a phone, tablet, or computer with a private space and an internet connection. Call (786) 972-7110 to book."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much do therapy sessions cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sessions are $150 each for 50 minutes of individual, couples, or family therapy. Serene Minds Psychotherapy is a private-pay practice and does not bill insurance; superbills are available for out-of-network reimbursement. See the pricing page at serenemindspsychotherapy.com/pricing.html for full details."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What areas of Florida does Serene Minds Psychotherapy serve?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Because all services are delivered via telehealth, Serene Minds Psychotherapy serves clients throughout Florida — including Miami, Fort Lauderdale, Tampa, Orlando, Jacksonville, Hialeah, Pembroke Pines, and Coral Springs. You can receive therapy from anywhere in the state. Call (786) 972-7110 to get started."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you offer therapy for children and teens?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Serene Minds Psychotherapy provides specialized child and teen therapy for anxiety, ADHD, trauma, behavioral issues, and developmental challenges, with age-appropriate techniques, parent-involvement options, and school-coordination support. Call (786) 972-7110 to learn more."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What languages are therapy sessions available in?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Therapy is available in English, Gujarati, and Hindi. Fram Sarkari is fluent in all three and provides culturally sensitive care, so sessions can be conducted entirely in the language you are most comfortable with. Call (786) 972-7110 or email info@serenemindspsychotherapy.com."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you provide clinical supervision for interns?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. As a Florida Qualified Clinical Supervisor, Fram Sarkari provides individual and group supervision, case consultation, and career-development guidance for Registered Mental Health Counselor Interns working toward LMHC licensure. Supervision hours meet Florida Board requirements. Call (786) 972-7110."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I book a therapy session?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "To book, call or text (786) 972-7110, email info@serenemindspsychotherapy.com, or use the online scheduler. A free 15-minute consultation is available so you can confirm fit before your first session. Office hours are Monday through Saturday, 8:00 AM to 8:00 PM."
+        }
+      }
+    ]
+  }
   </script>
 
   <header class="site-header">
@@ -145,11 +320,11 @@
       <div class="container">
         <p class="section-label">OUR SERVICES</p>
         <h1 id="services-hero-heading" class="page-hero-title">
-          Comprehensive Mental Health<br>
-          <strong>Care &amp; Support</strong>
+          Therapy Services<br>
+          <strong>in Florida</strong>
         </h1>
         <p class="page-hero-subtitle">
-          Evidence-based therapeutic services tailored to your unique needs, delivered with compassion and cultural sensitivity.
+          Serene Minds Psychotherapy offers individual therapy, couples counseling, family therapy, child &amp; teen therapy, women's programs, online sessions, and clinical supervision — all via secure telehealth across Florida. Evidence-based care from Fram Sarkari, M.S., LMHC. Call (786) 972-7110.
         </p>
       </div>
     </section>
@@ -157,7 +332,7 @@
     <!-- SECTION 2: SERVICES LIST -->
     <section class="services-list-section" aria-labelledby="services-list-heading">
       <div class="container">
-        <h2 id="services-list-heading" class="sr-only">Our Services</h2>
+        <h2 id="services-list-heading" class="sr-only">What Therapy Services Does Serene Minds Psychotherapy Offer?</h2>
 
         <!-- Service 1: Individual Therapy (Text Left / Image Right) -->
         <article class="service-row" id="individual">
@@ -312,8 +487,8 @@
     <section class="approaches-section" aria-labelledby="approaches-heading">
       <div class="container">
         <p class="section-label">METHODOLOGY</p>
-        <h2 id="approaches-heading" class="section-title approaches-title">Treatment Approaches</h2>
-        <p class="approaches-subtitle">Every client is unique. I draw from multiple evidence-based approaches to create a personalized treatment plan that works for you.</p>
+        <h2 id="approaches-heading" class="section-title approaches-title">What Treatment Approaches Does Serene Minds Use?</h2>
+        <p class="approaches-subtitle">Every client is unique, so Fram Sarkari, M.S., LMHC draws from multiple evidence-based approaches — CBT, DBT, mindfulness, solution-focused therapy, motivational interviewing, and REBT — to create a personalized treatment plan that works for you.</p>
         <div class="approaches-grid">
           <article class="approach-card">
             <span class="approach-card-icon" aria-hidden="true">
@@ -365,7 +540,7 @@
     <section class="conditions-section" aria-labelledby="conditions-heading">
       <div class="container">
         <p class="section-label section-label-light">AREAS OF EXPERTISE</p>
-        <h2 id="conditions-heading" class="conditions-title">Conditions We Treat</h2>
+        <h2 id="conditions-heading" class="conditions-title">What Conditions Does Serene Minds Psychotherapy Treat?</h2>
         <div class="conditions-tags">
           <span class="conditions-tag">ADHD</span>
           <span class="conditions-tag">PTSD</span>
@@ -386,7 +561,141 @@
       </div>
     </section>
 
-    <!-- SECTION 5: BOTTOM CTA -->
+    <!-- SECTION 5: FAQ ACCORDION -->
+    <section class="faq-section" aria-labelledby="services-faq-heading">
+      <div class="container">
+        <p class="section-label">FAQ</p>
+        <h2 id="services-faq-heading" class="section-title">
+          Frequently Asked Questions About<br>
+          <strong>Therapy Services in Florida</strong>
+        </h2>
+        <p class="section-subtitle">Everything you need to know about the therapy services offered by Serene Minds Psychotherapy.</p>
+        <div class="accordion" role="region" aria-labelledby="services-faq-heading">
+          <div class="accordion-item">
+            <h3 class="accordion-heading">
+              <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="services-faq-1" id="accordion-services-1" data-accordion-trigger>
+                What therapy services does Serene Minds Psychotherapy offer?
+              </button>
+            </h3>
+            <div id="services-faq-1" class="accordion-panel" role="region" aria-labelledby="accordion-services-1" hidden>
+              <div class="accordion-panel-inner">
+                <p>Serene Minds Psychotherapy offers <a href="online-therapy-florida.html">individual therapy</a>, <a href="marriage-counseling-miami.html">couples counseling</a>, <a href="family-therapy-florida.html">family therapy</a>, <a href="child-teen-therapy-florida.html">child and teen therapy</a>, <a href="womens-therapy-florida.html">women's programs</a>, online telehealth sessions, and <a href="clinical-supervision-florida.html">clinical supervision</a> for Registered Mental Health Counselor Interns. Every service is delivered by Fram Sarkari, M.S., LMHC via secure, HIPAA-compliant video throughout Florida. Call (786) 972-7110 for a free 15-minute consultation.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-heading">
+              <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="services-faq-2" id="accordion-services-2" data-accordion-trigger>
+                What therapy approaches does Serene Minds Psychotherapy use?
+              </button>
+            </h3>
+            <div id="services-faq-2" class="accordion-panel" role="region" aria-labelledby="accordion-services-2" hidden>
+              <div class="accordion-panel-inner">
+                <p>Treatment is tailored to each client using evidence-based approaches including Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), Mindfulness and Meditation, Solution-Focused Therapy, Motivational Interviewing, and Rational Emotive Behavior Therapy (REBT). Fram Sarkari draws from multiple modalities to build a personalized plan for your goals.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-heading">
+              <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="services-faq-3" id="accordion-services-3" data-accordion-trigger>
+                What conditions does Serene Minds Psychotherapy treat?
+              </button>
+            </h3>
+            <div id="services-faq-3" class="accordion-panel" role="region" aria-labelledby="accordion-services-3" hidden>
+              <div class="accordion-panel-inner">
+                <p>Serene Minds Psychotherapy treats ADHD, PTSD, OCD, depression, bipolar disorder, panic disorder, conduct disorder, oppositional defiance, grief and bereavement, anger management, stress and anxiety, childhood trauma and abuse, intimacy issues, and more. Treatment spans adults, couples, families, teens, and children. Call (786) 972-7110 to discuss your needs.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-heading">
+              <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="services-faq-4" id="accordion-services-4" data-accordion-trigger>
+                Are all therapy sessions online?
+              </button>
+            </h3>
+            <div id="services-faq-4" class="accordion-panel" role="region" aria-labelledby="accordion-services-4" hidden>
+              <div class="accordion-panel-inner">
+                <p>Yes. Serene Minds Psychotherapy is a telehealth-only practice, so every session is conducted over a secure, HIPAA-compliant video platform. You can attend from anywhere in Florida using a phone, tablet, or computer with a private space and an internet connection. Call (786) 972-7110 to book.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-heading">
+              <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="services-faq-5" id="accordion-services-5" data-accordion-trigger>
+                How much do therapy sessions cost?
+              </button>
+            </h3>
+            <div id="services-faq-5" class="accordion-panel" role="region" aria-labelledby="accordion-services-5" hidden>
+              <div class="accordion-panel-inner">
+                <p>Sessions are $150 each for 50 minutes of individual, couples, or family therapy. Serene Minds Psychotherapy is a private-pay practice and does not bill insurance; superbills are available for out-of-network reimbursement. See the <a href="pricing.html">pricing page</a> for full details.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-heading">
+              <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="services-faq-6" id="accordion-services-6" data-accordion-trigger>
+                What areas of Florida does Serene Minds Psychotherapy serve?
+              </button>
+            </h3>
+            <div id="services-faq-6" class="accordion-panel" role="region" aria-labelledby="accordion-services-6" hidden>
+              <div class="accordion-panel-inner">
+                <p>Because all services are delivered via telehealth, Serene Minds Psychotherapy serves clients throughout Florida — including Miami, Fort Lauderdale, Tampa, Orlando, Jacksonville, Hialeah, Pembroke Pines, and Coral Springs. You can receive therapy from anywhere in the state. Call (786) 972-7110 to get started.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-heading">
+              <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="services-faq-7" id="accordion-services-7" data-accordion-trigger>
+                Do you offer therapy for children and teens?
+              </button>
+            </h3>
+            <div id="services-faq-7" class="accordion-panel" role="region" aria-labelledby="accordion-services-7" hidden>
+              <div class="accordion-panel-inner">
+                <p>Yes. Serene Minds Psychotherapy provides specialized <a href="child-teen-therapy-florida.html">child and teen therapy</a> for anxiety, ADHD, trauma, behavioral issues, and developmental challenges, with age-appropriate techniques, parent-involvement options, and school-coordination support. Call (786) 972-7110 to learn more.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-heading">
+              <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="services-faq-8" id="accordion-services-8" data-accordion-trigger>
+                What languages are therapy sessions available in?
+              </button>
+            </h3>
+            <div id="services-faq-8" class="accordion-panel" role="region" aria-labelledby="accordion-services-8" hidden>
+              <div class="accordion-panel-inner">
+                <p>Therapy is available in English, Gujarati, and Hindi. Fram Sarkari is fluent in all three and provides culturally sensitive care, so sessions can be conducted entirely in the language you are most comfortable with. Call (786) 972-7110 or email info@serenemindspsychotherapy.com.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-heading">
+              <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="services-faq-9" id="accordion-services-9" data-accordion-trigger>
+                Do you provide clinical supervision for interns?
+              </button>
+            </h3>
+            <div id="services-faq-9" class="accordion-panel" role="region" aria-labelledby="accordion-services-9" hidden>
+              <div class="accordion-panel-inner">
+                <p>Yes. As a Florida Qualified Clinical Supervisor, Fram Sarkari provides individual and group <a href="clinical-supervision-florida.html">supervision</a>, case consultation, and career-development guidance for Registered Mental Health Counselor Interns working toward LMHC licensure. Supervision hours meet Florida Board requirements. Call (786) 972-7110.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-heading">
+              <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="services-faq-10" id="accordion-services-10" data-accordion-trigger>
+                How do I book a therapy session?
+              </button>
+            </h3>
+            <div id="services-faq-10" class="accordion-panel" role="region" aria-labelledby="accordion-services-10" hidden>
+              <div class="accordion-panel-inner">
+                <p>To book, call or text (786) 972-7110, email info@serenemindspsychotherapy.com, or use the online scheduler. A free 15-minute consultation is available so you can confirm fit before your first session. Office hours are Monday through Saturday, 8:00 AM to 8:00 PM.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: BOTTOM CTA -->
     <section class="services-cta" id="insurance-pricing" aria-labelledby="services-cta-heading">
       <div class="container services-cta-inner">
         <h2 id="services-cta-heading" class="section-title">Not Sure Which Service is Right for You?</h2>

@@ -1401,10 +1401,13 @@ a:focus-visible { outline: 2px solid var(--color-gold); outline-offset: 2px; }
   display: flex;
   align-items: center;
   background: var(--color-cream);
-  background-image: url("../images/services-bg.webp");
+  background-image: url("../images/services-bg-mobile.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+@media (min-width: 769px) {
+  .page-hero-services { background-image: url("../images/services-bg.webp"); }
 }
 .page-hero-services::before {
   content: "";
