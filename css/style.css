@@ -981,10 +981,13 @@ a:focus-visible { outline: 2px solid var(--color-gold); outline-offset: 2px; }
 }
 
 .page-hero-about {
-  background-image: url("../images/about-bg.webp");
+  background-image: url("../images/about-bg-mobile.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+@media (min-width: 769px) {
+  .page-hero-about { background-image: url("../images/about-bg.webp"); }
 }
 
 .about-bio {

@@ -48,6 +48,9 @@
   <meta name="twitter:image" content="https://serenemindspsychotherapy.com/images/Dr.%20Fram-Sarkari.webp">
 
   <link rel="icon" href="images/logo.webp" type="image/webp">
+  <!-- Preload LCP hero background — one variant per viewport so each device fetches only its size and discovers it early -->
+  <link rel="preload" as="image" href="images/about-bg-mobile.webp" type="image/webp" media="(max-width: 768px)">
+  <link rel="preload" as="image" href="images/about-bg.webp" type="image/webp" media="(min-width: 769px)">
   <!-- Typography (loaded async to avoid render-blocking) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
