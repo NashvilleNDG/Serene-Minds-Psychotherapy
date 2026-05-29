@@ -58,7 +58,7 @@
 
   <!-- Critical above-the-fold CSS inlined to remove render-blocking; full stylesheets load async below -->
   <style id="critical-css">
-:root{--color-teal:#1a4a45;--color-gold:#c9a84c;--color-cream:#f5f0e8;--color-card:#ede9df;--color-white:#fff;--color-body:#3d3d3d;--color-subtext:#7a8a7c;--color-sage:#7a8a7c;--font-heading:"Playfair Display",Georgia,serif;--font-body:"DM Sans",-apple-system,BlinkMacSystemFont,sans-serif;--size-h1:52px;--size-h2:40px;--size-h3:24px;--size-body:16px;--size-small:14px;--radius-pill:50px;--container-max:1200px}
+:root{--color-teal:#1a4a45;--color-gold:#c9a84c;--color-cream:#f5f0e8;--color-card:#ede9df;--color-white:#fff;--color-body:#3d3d3d;--color-subtext:#7a8a7c;--color-sage:#7a8a7c;--font-heading:"Playfair Display",Georgia,serif;--font-body:"DM Sans",-apple-system,BlinkMacSystemFont,sans-serif;--size-h1:52px;--size-h2:40px;--size-h3:24px;--size-body:16px;--size-small:14px;--radius-card:14px;--radius-pill:50px;--shadow-card:0 4px 20px rgba(0,0,0,.08);--section-padding:80px;--container-max:1200px}
 *,*::before,*::after{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;font-family:var(--font-body);font-size:var(--size-body);line-height:1.6;color:var(--color-body);background:#fff}
@@ -101,10 +101,25 @@ a:hover{text-decoration:underline}
 .page-hero-services .page-hero-title,.page-hero-services .page-hero-title strong{color:#fff}
 .page-hero-services .page-hero-subtitle{color:rgba(255,255,255,.9)}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+.services-list-section{background:#fff;padding:var(--section-padding) 0}
+.service-row{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;margin-bottom:100px}
+.service-row:last-child{margin-bottom:0}
+.service-row-alt .service-row-content{order:2}
+.service-row-alt .service-row-image{order:1}
+.service-row-content{padding:0 8px 0 0}
+.service-row-header{display:flex;align-items:center;gap:14px;margin-bottom:16px}
+.service-icon-badge{flex-shrink:0;width:52px;height:52px;border-radius:12px;background:var(--color-card);display:flex;align-items:center;justify-content:center}
+.svg-icon-teal{width:28px;height:28px;color:var(--color-teal)}
+.service-row-title{font-family:var(--font-heading);font-size:32px;font-weight:400;color:var(--color-teal);margin:0}
+.service-row-desc{font-size:var(--size-body);line-height:1.6;color:var(--color-subtext);margin:0 0 24px 0}
+.service-row-bullets{list-style:none;margin:0 0 28px 0;padding:0}
+.service-row-bullets li{position:relative;padding-left:32px;margin-bottom:14px;font-size:var(--size-body);font-weight:500;color:var(--color-teal);line-height:1.4}
+.service-row-image{min-width:0}
+.service-row-image .service-row-img{width:100%;height:380px;object-fit:cover;border-radius:var(--radius-card);display:block}
 @media (min-width:769px){.page-hero-services{background-image:url("images/services-bg.webp")}}
-@media (max-width:992px){:root{--size-h1:42px;--size-h2:34px}.page-hero-title{font-size:42px}}
+@media (max-width:992px){:root{--size-h1:42px;--size-h2:34px}.page-hero-title{font-size:42px}.service-row{grid-template-columns:1fr;gap:32px;margin-bottom:72px}.service-row-content{padding:0}.service-row-header{justify-content:center;text-align:center}}
 @media (max-width:900px){.nav-toggle{display:block}.main-nav{position:fixed;top:0;right:0;width:min(320px,100%);height:100vh;background:#0a0e14;box-shadow:-4px 0 24px rgba(0,0,0,.4);flex-direction:column;align-items:stretch;padding:80px 24px 24px;gap:24px;transform:translateX(100%);transition:transform .3s ease;overflow-y:auto}.main-nav.is-open{transform:translateX(0)}.nav-close{display:flex;position:absolute;top:24px;right:24px;align-items:center;justify-content:center;width:44px;height:44px;background:none;border:none;color:#fff;font-size:28px;cursor:pointer}.nav-list{flex-direction:column;align-items:stretch;gap:0}.nav-list .nav-link{display:block;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.12)}.nav-cta{flex-direction:column;align-items:stretch;margin-top:16px}.header-inner{padding:12px 24px;justify-content:center;position:relative}.header-inner .nav-toggle{position:absolute;right:24px;top:50%;transform:translateY(-50%)}}
-@media (max-width:768px){:root{--size-h1:36px;--size-h2:28px}.page-hero-title{font-size:32px}}
+@media (max-width:768px){:root{--size-h1:36px;--size-h2:28px}.page-hero-title{font-size:32px}.service-row{margin-bottom:56px}.service-row-title{font-size:26px}}
   </style>
   <link rel="stylesheet" href="css/style.css" media="print" onload="this.media='all'">
   <link rel="stylesheet" href="css/responsive.css" media="print" onload="this.media='all'">
