@@ -974,10 +974,13 @@ a:focus-visible { outline: 2px solid var(--color-gold); outline-offset: 2px; }
 .page-hero:not(.page-hero-services) .page-hero-subtitle { color: rgba(255, 255, 255, 0.9); }
 
 .page-hero-contact {
-  background-image: url("../images/contact-bg.webp");
+  background-image: url("../images/contact-bg-mobile.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+@media (min-width: 769px) {
+  .page-hero-contact { background-image: url("../images/contact-bg.webp"); }
 }
 
 .page-hero-about {
