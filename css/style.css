@@ -1673,7 +1673,7 @@ a:focus-visible { outline: 2px solid var(--color-gold); outline-offset: 2px; }
 .insurance-hero {
   position: relative;
   background: var(--insurance-cream, #f8f5f0);
-  background-image: url("../images/pricing-bg.webp");
+  background-image: url("../images/pricing-bg-mobile.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1682,6 +1682,9 @@ a:focus-visible { outline: 2px solid var(--color-gold); outline-offset: 2px; }
   display: flex;
   align-items: center;
   text-align: center;
+}
+@media (min-width: 769px) {
+  .insurance-hero { background-image: url("../images/pricing-bg.webp"); }
 }
 .insurance-hero::before {
   content: "";
