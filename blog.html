@@ -27,33 +27,91 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog & Resources | Serene Minds Psychotherapy</title>
-  <meta name="description" content="Read mental health articles, tips, and resources from Fram Sarkari, LMHC. Topics include anxiety, depression, mindfulness, relationships, parenting, and self-care.">
-  <meta name="keywords" content="mental health blog, therapy tips Florida, anxiety depression articles, mindfulness mental health, parenting stress">
+  <meta name="description" content="Mental health articles from Fram Sarkari, M.S., LMHC — anxiety, depression, mindfulness, relationships & self-care. Serene Minds Psychotherapy, Florida.">
+  <meta name="keywords" content="mental health blog Florida, therapy articles, anxiety depression blog, mindfulness blog, telehealth therapy resources, Serene Minds Psychotherapy blog">
   <link rel="canonical" href="https://serenemindspsychotherapy.com/blog.html">
 
   <!-- Open Graph -->
   <meta property="og:title" content="Blog & Resources | Serene Minds Psychotherapy">
-  <meta property="og:description" content="Articles, tips, and resources to support your mental health journey. Anxiety, mindfulness, relationships, and more.">
-  <meta property="og:image" content="https://serenemindspsychotherapy.com/images/logo.webp">
+  <meta property="og:description" content="Mental health articles from Fram Sarkari, M.S., LMHC — anxiety, depression, mindfulness, relationships & self-care. Serene Minds Psychotherapy, Florida.">
+  <meta property="og:image" content="https://serenemindspsychotherapy.com/images/img.webp">
   <meta property="og:url" content="https://serenemindspsychotherapy.com/blog.html">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Serene Minds Psychotherapy">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Blog & Resources | Serene Minds Psychotherapy">
-  <meta name="twitter:description" content="Articles, tips, and resources to support your mental health journey. Anxiety, mindfulness, relationships, and more.">
-  <meta name="twitter:image" content="https://serenemindspsychotherapy.com/images/logo.webp">
+  <meta name="twitter:description" content="Mental health articles from Fram Sarkari, M.S., LMHC — anxiety, depression, mindfulness, relationships & self-care. Serene Minds Psychotherapy, Florida.">
+  <meta name="twitter:image" content="https://serenemindspsychotherapy.com/images/img.webp">
 
   <link rel="icon" href="images/logo.webp" type="image/webp">
+  <!-- Preload LCP hero background -->
+  <link rel="preload" as="image" href="images/img.webp" type="image/webp">
   <!-- Typography (loaded async to avoid render-blocking) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=optional" rel="stylesheet" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=optional"></noscript>
 
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/responsive.css">
+  <!-- Critical above-the-fold CSS inlined to remove render-blocking; full stylesheets load async below -->
+  <style id="critical-css">
+:root{--color-teal:#1a4a45;--color-gold:#c9a84c;--color-cream:#f5f0e8;--color-card:#ede9df;--color-white:#fff;--color-body:#3d3d3d;--color-subtext:#7a8a7c;--color-sage:#7a8a7c;--font-heading:"Playfair Display",Georgia,serif;--font-body:"DM Sans",-apple-system,BlinkMacSystemFont,sans-serif;--size-h1:52px;--size-h2:40px;--size-h3:24px;--size-body:16px;--size-small:14px;--radius-card:14px;--radius-pill:50px;--shadow-card:0 4px 20px rgba(0,0,0,.08);--section-padding:80px;--container-max:1200px}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:var(--font-body);font-size:var(--size-body);line-height:1.6;color:var(--color-body);background:#fff}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--color-teal);text-decoration:none}
+a:hover{text-decoration:underline}
+.skip-link{position:absolute;top:-100px;left:16px;padding:12px 20px;background:var(--color-teal);color:#fff;font-weight:600;z-index:1000;border-radius:8px}
+.breadcrumb{padding:12px 0 0;display:none}
+.container{width:100%;max-width:var(--container-max);margin:0 auto;padding:0 24px}
+.container-blog{max-width:1000px;margin:0 auto;padding:0 24px}
+.btn{display:inline-block;padding:14px 28px;font-family:var(--font-body);font-size:var(--size-body);font-weight:600;border-radius:var(--radius-pill);cursor:pointer;border:2px solid transparent}
+.btn-primary{background:var(--color-teal);color:#fff;border-color:var(--color-teal)}
+.site-header{position:sticky;top:0;z-index:100;background:var(--color-teal);box-shadow:0 4px 20px rgba(0,0,0,.25)}
+.header-inner{max-width:var(--container-max);margin:0 auto;padding:16px 24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px}
+.logo{display:flex;align-items:center;gap:12px;color:#fff;font-weight:600;font-size:var(--size-body)}
+.logo-img{display:block;height:60px;width:auto;max-width:260px;object-fit:contain}
+.nav-toggle{display:none;background:none;border:none;padding:8px;cursor:pointer;font-size:24px;color:#fff;line-height:1}
+.nav-close{display:none}
+.hamburger{display:block;width:24px;height:2px;background:#fff;position:relative}
+.hamburger::before,.hamburger::after{content:"";position:absolute;left:0;width:24px;height:2px;background:#fff}
+.hamburger::before{top:-7px}.hamburger::after{top:7px}
+.main-nav{display:flex;align-items:center;gap:32px}
+.nav-list{list-style:none;margin:0;padding:0;display:flex;align-items:center;gap:28px}
+.nav-link{color:rgba(255,255,255,.9);font-weight:700;font-size:var(--size-small)}
+.nav-link.active{color:var(--color-gold);font-weight:700}
+.nav-cta{display:flex;align-items:center;gap:20px}
+.nav-phone{display:flex;align-items:center;gap:8px;color:rgba(255,255,255,.9);font-weight:700;font-size:var(--size-small)}
+.nav-phone-icon{font-size:14px}
+.site-header .btn-primary{background:var(--color-gold);color:#0a0e14;border-color:var(--color-gold);font-size:var(--size-small);padding:8px 18px}
+.blog-hero{position:relative;background:#f8f5f0;background-image:url("images/img.webp");background-size:cover;background-position:center;background-repeat:no-repeat;padding:120px 0;min-height:55vh;display:flex;align-items:center;text-align:center}
+.blog-hero::before{content:"";position:absolute;inset:0;background:rgba(0,0,0,.45);pointer-events:none}
+.blog-hero .container{position:relative;z-index:1;width:100%}
+.blog-hero-label{font-size:12px;font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:var(--color-gold);margin:0 0 12px 0}
+.blog-hero-title{font-family:var(--font-heading);font-size:56px;font-weight:400;line-height:1.15;color:#fff;margin:0 0 20px 0}
+.blog-hero-subtitle{font-size:18px;color:rgba(255,255,255,.9);max-width:560px;margin:0 auto;line-height:1.5}
+.blog-featured-section{background:#f8f5f0;padding:80px 0}
+.blog-featured-card{display:grid;grid-template-columns:1fr 1fr;border-radius:20px;overflow:hidden;background:#fff;box-shadow:0 4px 24px rgba(0,0,0,.08)}
+.blog-featured-image{min-height:400px;background:#e0e0e0}
+.blog-featured-image img{width:100%;height:100%;min-height:400px;object-fit:cover}
+.blog-featured-content{padding:40px 48px;background:#fafaf8;display:flex;flex-direction:column;justify-content:center}
+.blog-badge{display:inline-block;padding:4px 10px;border-radius:20px;font-size:12px;font-weight:600;margin-bottom:16px;align-self:flex-start}
+.blog-badge-anxiety{background:#e8eef4;color:#475569}
+.blog-featured-title{font-family:var(--font-heading);font-size:32px;font-weight:600;line-height:1.3;color:#0d4a4a;margin:0 0 16px 0}
+.blog-featured-desc{font-size:var(--size-body);color:#6b8080;line-height:1.6;margin:0 0 20px 0}
+@media (max-width:992px){.blog-hero{padding:80px 0}.blog-hero-title{font-size:42px}.blog-featured-card{grid-template-columns:1fr}.blog-featured-image{min-height:320px}.blog-featured-image img{min-height:320px}.blog-featured-content{padding:32px 24px;text-align:center}.blog-featured-content .blog-badge{align-self:center}}
+@media (max-width:900px){.nav-toggle{display:block}.main-nav{position:fixed;top:0;right:0;width:min(320px,100%);height:100vh;background:#0a0e14;box-shadow:-4px 0 24px rgba(0,0,0,.4);flex-direction:column;align-items:stretch;padding:80px 24px 24px;gap:24px;transform:translateX(100%);transition:transform .3s ease;overflow-y:auto}.main-nav.is-open{transform:translateX(0)}.nav-close{display:flex;position:absolute;top:24px;right:24px;align-items:center;justify-content:center;width:44px;height:44px;background:none;border:none;color:#fff;font-size:28px;cursor:pointer}.nav-list{flex-direction:column;align-items:stretch;gap:0}.nav-list .nav-link{display:block;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.12)}.nav-cta{flex-direction:column;align-items:stretch;margin-top:16px}.header-inner{padding:12px 24px;justify-content:center;position:relative}.header-inner .nav-toggle{position:absolute;right:24px;top:50%;transform:translateY(-50%)}}
+@media (max-width:768px){.blog-hero-title{font-size:36px}.blog-featured-title{font-size:26px}}
+  </style>
+  <link rel="stylesheet" href="css/style.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="css/responsive.css" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+  </noscript>
 </head>
 <body class="page-blog">
   <!-- Google Tag Manager (noscript) -->
@@ -67,22 +125,129 @@
   <!-- End Meta Pixel Code -->
   <a href="#main-content" class="skip-link">Skip to main content</a>
 
-  <!-- Schema.org JSON-LD -->
-  <script type="application/ld+json">
+  <!-- Schema.org JSON-LD (LocalBusiness + MedicalBusiness) -->
+  <script type="application/ld+json" id="schema-lb-blog">
   {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": ["LocalBusiness", "MedicalBusiness"],
+    "@id": "https://serenemindspsychotherapy.com/#localbusiness",
+    "name": "Serene Minds Psychotherapy",
+    "alternateName": "Serene Minds",
+    "description": "Serene Minds Psychotherapy provides licensed psychotherapy in Florida via secure, HIPAA-compliant telehealth. Founded by Faramroze (Fram) Sarkari, M.S., LMHC, a Licensed Mental Health Counselor and Qualified Clinical Supervisor with 20+ years of experience. Services include individual therapy, couples counseling, family therapy, teen and child therapy, women's programs, online therapy sessions, and clinical supervision. Sessions in English, Gujarati, and Hindi.",
+    "url": "https://serenemindspsychotherapy.com/",
+    "telephone": "+17869727110",
+    "email": "info@serenemindspsychotherapy.com",
+    "image": "https://serenemindspsychotherapy.com/images/img.webp",
+    "logo": "https://serenemindspsychotherapy.com/images/Logo-transparent.webp",
+    "currenciesAccepted": "USD",
+    "paymentAccepted": "Visa, MasterCard, American Express, Discover, Zelle, HSA, FSA",
+    "priceRange": "$$",
+    "address": {"@type": "PostalAddress", "addressLocality": "Miami", "addressRegion": "FL", "postalCode": "33101", "addressCountry": "US"},
+    "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "08:00", "closes": "20:00"}],
+    "areaServed": [{"@type": "State", "name": "Florida"}],
+    "knowsLanguage": ["English", "Gujarati", "Hindi"],
+    "founder": {"@id": "https://serenemindspsychotherapy.com/#person-fram"},
+    "sameAs": [
+      "https://www.facebook.com/profile.php?id=61582372858663",
+      "https://www.instagram.com/sereneminds_psychotherapy/",
+      "https://www.tiktok.com/@sereneminds_",
+      "https://www.youtube.com/@SereneMindsPsychotherapy",
+      "https://in.pinterest.com/03xj2kch335shub2w77x537cwcyy5q"
+    ]
+  }
+  </script>
+
+  <!-- Schema.org JSON-LD (Organization) -->
+  <script type="application/ld+json" id="schema-org-blog">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
     "@id": "https://serenemindspsychotherapy.com/#organization",
     "name": "Serene Minds Psychotherapy",
-    "url": "https://serenemindspsychotherapy.com",
-    "telephone": "+1-786-972-7110",
-    "description": "Mental health blog and resources from a Licensed Psychotherapist in Florida."
+    "url": "https://serenemindspsychotherapy.com/",
+    "logo": "https://serenemindspsychotherapy.com/images/Logo-transparent.webp",
+    "description": "Serene Minds Psychotherapy is a licensed Florida psychotherapy practice providing telehealth mental health care across the state. Led by Fram Sarkari, M.S., LMHC.",
+    "contactPoint": {"@type": "ContactPoint", "telephone": "+17869727110", "contactType": "customer service", "email": "info@serenemindspsychotherapy.com", "areaServed": "US-FL", "availableLanguage": ["English","Gujarati","Hindi"]},
+    "sameAs": [
+      "https://www.facebook.com/profile.php?id=61582372858663",
+      "https://www.instagram.com/sereneminds_psychotherapy/",
+      "https://www.tiktok.com/@sereneminds_",
+      "https://www.youtube.com/@SereneMindsPsychotherapy",
+      "https://in.pinterest.com/03xj2kch335shub2w77x537cwcyy5q"
+    ]
+  }
+  </script>
+
+  <!-- Schema.org JSON-LD (Blog + posts) -->
+  <script type="application/ld+json" id="schema-blog-blog">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "@id": "https://serenemindspsychotherapy.com/blog.html#blog",
+    "name": "Serene Minds Psychotherapy Blog & Resources",
+    "description": "Mental health articles from Fram Sarkari, M.S., LMHC covering anxiety, depression, mindfulness, relationships, parenting, self-care, and telehealth therapy.",
+    "url": "https://serenemindspsychotherapy.com/blog.html",
+    "inLanguage": "en-US",
+    "publisher": {"@id": "https://serenemindspsychotherapy.com/#organization"},
+    "author": {"@id": "https://serenemindspsychotherapy.com/#person-fram"},
+    "blogPost": [
+      {"@type": "BlogPosting", "headline": "Major Depression: What It Is, How It Feels, and How Therapy Helps", "url": "https://serenemindspsychotherapy.com/major-depression-therapy.html", "datePublished": "2025-06-28"},
+      {"@type": "BlogPosting", "headline": "When Depression and ADHD Overlap: Understanding and Treating Both", "url": "https://serenemindspsychotherapy.com/depression-adhd-treatment.html", "datePublished": "2025-06-15"},
+      {"@type": "BlogPosting", "headline": "Psychotherapy for Bipolar Depression: What Works and Why It Matters", "url": "https://serenemindspsychotherapy.com/bipolar-depression-therapy.html", "datePublished": "2025-06-05"},
+      {"@type": "BlogPosting", "headline": "Is Therapy Enough for Mild Depression? What the Evidence Says", "url": "https://serenemindspsychotherapy.com/mild-depression-therapy.html", "datePublished": "2025-05-25"},
+      {"@type": "BlogPosting", "headline": "How Much Does Therapy Cost in Florida in 2025? A Complete Guide", "url": "https://serenemindspsychotherapy.com/therapy-cost-florida.html", "datePublished": "2025-05-18"},
+      {"@type": "BlogPosting", "headline": "What Is Telehealth Therapy? How It Works and Whether It Is Right for You", "url": "https://serenemindspsychotherapy.com/what-is-telehealth-therapy.html", "datePublished": "2025-05-10"},
+      {"@type": "BlogPosting", "headline": "7 Evidence-Based Benefits of Online Therapy You Should Know", "url": "https://serenemindspsychotherapy.com/benefits-of-online-therapy.html", "datePublished": "2025-05-01"},
+      {"@type": "BlogPosting", "headline": "Understanding Anxiety: Signs, Symptoms, and Coping Strategies", "url": "https://serenemindspsychotherapy.com/understanding-anxiety-therapy.html", "datePublished": "2024-01-14"},
+      {"@type": "BlogPosting", "headline": "The Power of Mindfulness in Mental Health Recovery", "url": "https://serenemindspsychotherapy.com/mindfulness-mental-health.html", "datePublished": "2024-01-09"},
+      {"@type": "BlogPosting", "headline": "Navigating Relationships: Communication Tips for Couples", "url": "https://serenemindspsychotherapy.com/navigating-relationships-therapy.html", "datePublished": "2024-01-04"},
+      {"@type": "BlogPosting", "headline": "Helping Your Child Cope with Stress and Anxiety", "url": "https://serenemindspsychotherapy.com/helping-child-anxiety-stress.html", "datePublished": "2023-12-31"},
+      {"@type": "BlogPosting", "headline": "Self-Care Practices That Actually Work", "url": "https://serenemindspsychotherapy.com/self-care-mental-health.html", "datePublished": "2023-12-27"},
+      {"@type": "BlogPosting", "headline": "Breaking Free from Depression: A Path Forward", "url": "https://serenemindspsychotherapy.com/breaking-free-depression-therapy.html", "datePublished": "2023-12-19"}
+    ]
+  }
+  </script>
+
+  <!-- Schema.org JSON-LD (CollectionPage) -->
+  <script type="application/ld+json" id="schema-wp-blog">
+  {
+    "@context": "https://schema.org",
+    "@type": ["WebPage", "CollectionPage"],
+    "@id": "https://serenemindspsychotherapy.com/blog.html#webpage",
+    "url": "https://serenemindspsychotherapy.com/blog.html",
+    "name": "Blog & Resources | Serene Minds Psychotherapy",
+    "description": "Mental health articles from Fram Sarkari, M.S., LMHC — anxiety, depression, mindfulness, relationships & self-care. Serene Minds Psychotherapy, Florida.",
+    "inLanguage": "en-US",
+    "isPartOf": {"@id": "https://serenemindspsychotherapy.com/#organization"},
+    "about": {"@id": "https://serenemindspsychotherapy.com/#localbusiness"},
+    "mainEntity": {"@id": "https://serenemindspsychotherapy.com/blog.html#blog"},
+    "primaryImageOfPage": "https://serenemindspsychotherapy.com/images/img.webp",
+    "datePublished": "2026-01-01",
+    "dateModified": "2026-05-29"
   }
   </script>
 
   <!-- Schema.org BreadcrumbList -->
-  <script type="application/ld+json">
+  <script type="application/ld+json" id="schema-bc-blog">
   {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://serenemindspsychotherapy.com/"},{"@type":"ListItem","position":2,"name":"Blog & Resources","item":"https://serenemindspsychotherapy.com/blog.html"}]}
+  </script>
+
+  <!-- Schema.org FAQPage (blog FAQ — mirrors visible accordion) -->
+  <script type="application/ld+json" id="schema-faq-blog">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type":"Question","name":"Who writes the Serene Minds Psychotherapy blog?","acceptedAnswer":{"@type":"Answer","text":"Every article is written by Faramroze (Fram) Sarkari, M.S., LMHC — a Licensed Mental Health Counselor and Qualified Clinical Supervisor with 20+ years of experience providing psychotherapy in Florida. Posts reflect his clinical experience treating anxiety, depression, trauma, and relationship issues via telehealth."}},
+      {"@type":"Question","name":"What topics does the Serene Minds blog cover?","acceptedAnswer":{"@type":"Answer","text":"Articles cover anxiety, depression (including bipolar, seasonal, postpartum, and mild depression), mindfulness, relationships and couples communication, parenting and child mental health, self-care, telehealth therapy, ADHD, and the practical side of therapy in Florida (cost, what to expect, evidence-based approaches)."}},
+      {"@type":"Question","name":"How often is the blog updated?","acceptedAnswer":{"@type":"Answer","text":"New articles are added regularly — recent posts include long-form guides on major depression, therapy cost in Florida, telehealth therapy, and depression-ADHD overlap. Older posts are reviewed and updated as clinical guidance evolves."}},
+      {"@type":"Question","name":"Are these articles a substitute for therapy?","acceptedAnswer":{"@type":"Answer","text":"No. The articles are educational — they explain what a condition looks like, how evidence-based therapy treats it, and when to seek professional help. They do not replace individualized care. To book therapy, call (786) 972-7110 or email info@serenemindspsychotherapy.com."}},
+      {"@type":"Question","name":"Is the blog Florida-specific?","acceptedAnswer":{"@type":"Answer","text":"Many articles are written with Florida-based readers in mind (for example, therapy cost in Florida, telehealth in Florida). The clinical content — how anxiety, depression, or trauma present and how therapy treats them — applies to readers anywhere, though Serene Minds Psychotherapy can only provide clinical care to residents of Florida."}},
+      {"@type":"Question","name":"What should I do in a mental health emergency?","acceptedAnswer":{"@type":"Answer","text":"The blog is not a crisis resource. If you are in crisis or thinking about harming yourself, call or text 988 (the Suicide & Crisis Lifeline) or call 911 immediately. For non-urgent questions, contact Serene Minds Psychotherapy at (786) 972-7110."}},
+      {"@type":"Question","name":"Can I share these articles?","acceptedAnswer":{"@type":"Answer","text":"Yes — feel free to share links to articles with friends, family, or clients. Please link back to the original page on serenemindspsychotherapy.com rather than reposting the full text, so readers see current versions and correct attribution."}},
+      {"@type":"Question","name":"How do I book therapy after reading an article?","acceptedAnswer":{"@type":"Answer","text":"To schedule a free 15-minute consultation with Fram Sarkari, M.S., LMHC, call or text (786) 972-7110, email info@serenemindspsychotherapy.com, or use the online scheduler linked from the site. Sessions are $150 for 50 minutes and delivered via secure telehealth throughout Florida."}}
+    ]
+  }
   </script>
 
   <header class="site-header">
@@ -129,7 +294,7 @@
         <p class="blog-hero-label">BLOG &amp; RESOURCES</p>
         <h1 id="blog-hero-heading" class="blog-hero-title">Blog &amp; Resources</h1>
         <p class="blog-hero-subtitle">
-          Articles, tips, and resources to support your mental health journey.
+          Mental health articles from Fram Sarkari, M.S., LMHC — evidence-based insights on anxiety, depression, mindfulness, relationships, and more.
         </p>
       </div>
     </section>
@@ -457,8 +622,8 @@
       <div class="container">
         <div class="blog-cta-inner">
           <span class="blog-cta-icon" aria-hidden="true">📖</span>
-          <h2 id="blog-cta-heading" class="blog-cta-title">Mental Health Resources</h2>
-          <p class="blog-cta-desc">Looking for more support? Check out our services or schedule a consultation to discuss how therapy can help you.</p>
+          <h2 id="blog-cta-heading" class="blog-cta-title">Ready for More Than Reading?</h2>
+          <p class="blog-cta-desc">Articles help you understand — therapy helps you change. Explore <a href="services.html">our therapy services</a> or schedule a free 15-minute consultation with Fram Sarkari, M.S., LMHC.</p>
           <div class="blog-cta-buttons">
             <a href="services.html" class="btn btn-blog-cta">View Services</a>
             <a href="https://calendly.com/serenemindspsychotherapy-info/appointment" class="btn btn-blog-cta" target="_blank" rel="noopener noreferrer">Book Consultation</a>
@@ -467,11 +632,121 @@
       </div>
     </section>
 
-    <!-- SECTION 5: CONTACT + SOCIAL (white background) -->
+    <!-- SECTION 5: FAQ ACCORDION -->
+    <section class="faq-section" aria-labelledby="blog-faq-heading">
+      <div class="container">
+        <p class="section-label">FAQ</p>
+        <h2 id="blog-faq-heading" class="section-title">
+          Frequently Asked Questions About<br>
+          <strong>the Serene Minds Blog</strong>
+        </h2>
+        <p class="section-subtitle">Who writes it, what it covers, and how to use it.</p>
+        <div class="accordion" role="region" aria-labelledby="blog-faq-heading">
+          <div class="accordion-item">
+            <h3 class="accordion-heading">
+              <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="blog-faq-1" id="accordion-blog-1" data-accordion-trigger>
+                Who writes the Serene Minds Psychotherapy blog?
+              </button>
+            </h3>
+            <div id="blog-faq-1" class="accordion-panel" role="region" aria-labelledby="accordion-blog-1" hidden>
+              <div class="accordion-panel-inner">
+                <p>Every article is written by <a href="about.html">Faramroze (Fram) Sarkari, M.S., LMHC</a> — a Licensed Mental Health Counselor and Qualified Clinical Supervisor with 20+ years of experience providing psychotherapy in Florida. Posts reflect his clinical experience treating anxiety, depression, trauma, and relationship issues via telehealth.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-heading">
+              <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="blog-faq-2" id="accordion-blog-2" data-accordion-trigger>
+                What topics does the Serene Minds blog cover?
+              </button>
+            </h3>
+            <div id="blog-faq-2" class="accordion-panel" role="region" aria-labelledby="accordion-blog-2" hidden>
+              <div class="accordion-panel-inner">
+                <p>Articles cover anxiety, depression (including bipolar, seasonal, postpartum, and mild depression), mindfulness, relationships and couples communication, parenting and child mental health, self-care, telehealth therapy, ADHD, and the practical side of therapy in Florida (cost, what to expect, evidence-based approaches).</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-heading">
+              <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="blog-faq-3" id="accordion-blog-3" data-accordion-trigger>
+                How often is the blog updated?
+              </button>
+            </h3>
+            <div id="blog-faq-3" class="accordion-panel" role="region" aria-labelledby="accordion-blog-3" hidden>
+              <div class="accordion-panel-inner">
+                <p>New articles are added regularly — recent posts include long-form guides on major depression, therapy cost in Florida, telehealth therapy, and depression-ADHD overlap. Older posts are reviewed and updated as clinical guidance evolves.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-heading">
+              <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="blog-faq-4" id="accordion-blog-4" data-accordion-trigger>
+                Are these articles a substitute for therapy?
+              </button>
+            </h3>
+            <div id="blog-faq-4" class="accordion-panel" role="region" aria-labelledby="accordion-blog-4" hidden>
+              <div class="accordion-panel-inner">
+                <p>No. The articles are educational — they explain what a condition looks like, how evidence-based therapy treats it, and when to seek professional help. They do not replace individualized care. To book therapy, call <a href="tel:+17869727110">(786) 972-7110</a> or email <a href="mailto:info@serenemindspsychotherapy.com">info@serenemindspsychotherapy.com</a>.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-heading">
+              <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="blog-faq-5" id="accordion-blog-5" data-accordion-trigger>
+                Is the blog Florida-specific?
+              </button>
+            </h3>
+            <div id="blog-faq-5" class="accordion-panel" role="region" aria-labelledby="accordion-blog-5" hidden>
+              <div class="accordion-panel-inner">
+                <p>Many articles are written with Florida-based readers in mind (for example, <a href="therapy-cost-florida.html">therapy cost in Florida</a>, <a href="what-is-telehealth-therapy.html">telehealth in Florida</a>). The clinical content — how anxiety, depression, or trauma present and how therapy treats them — applies to readers anywhere, though Serene Minds Psychotherapy can only provide clinical care to residents of Florida.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-heading">
+              <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="blog-faq-6" id="accordion-blog-6" data-accordion-trigger>
+                What should I do in a mental health emergency?
+              </button>
+            </h3>
+            <div id="blog-faq-6" class="accordion-panel" role="region" aria-labelledby="accordion-blog-6" hidden>
+              <div class="accordion-panel-inner">
+                <p>The blog is not a crisis resource. If you are in crisis or thinking about harming yourself, call or text <a href="tel:988">988</a> (the Suicide &amp; Crisis Lifeline) or call <a href="tel:911">911</a> immediately. For non-urgent questions, contact Serene Minds Psychotherapy at (786) 972-7110.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-heading">
+              <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="blog-faq-7" id="accordion-blog-7" data-accordion-trigger>
+                Can I share these articles?
+              </button>
+            </h3>
+            <div id="blog-faq-7" class="accordion-panel" role="region" aria-labelledby="accordion-blog-7" hidden>
+              <div class="accordion-panel-inner">
+                <p>Yes — feel free to share links to articles with friends, family, or clients. Please link back to the original page on serenemindspsychotherapy.com rather than reposting the full text, so readers see current versions and correct attribution.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-heading">
+              <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="blog-faq-8" id="accordion-blog-8" data-accordion-trigger>
+                How do I book therapy after reading an article?
+              </button>
+            </h3>
+            <div id="blog-faq-8" class="accordion-panel" role="region" aria-labelledby="accordion-blog-8" hidden>
+              <div class="accordion-panel-inner">
+                <p>To schedule a free 15-minute consultation with Fram Sarkari, M.S., LMHC, call or text <a href="tel:+17869727110">(786) 972-7110</a>, email <a href="mailto:info@serenemindspsychotherapy.com">info@serenemindspsychotherapy.com</a>, or use the online scheduler. Sessions are $150 for 50 minutes and delivered via secure telehealth throughout Florida. See the <a href="pricing.html">pricing page</a> for details.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: CONTACT + SOCIAL (white background) -->
     <section class="blog-contact-section" aria-labelledby="blog-contact-heading">
       <div class="container">
-        <h2 id="blog-contact-heading" class="blog-contact-title">Get in Touch</h2>
-        <p class="blog-contact-desc">Have questions or want to schedule a session? Reach out by phone, email, or connect with us on social media.</p>
+        <h2 id="blog-contact-heading" class="blog-contact-title">How Do I Reach Serene Minds Psychotherapy?</h2>
+        <p class="blog-contact-desc">Call, email, or connect on social media. Fram Sarkari, M.S., LMHC responds within 24 hours.</p>
         <div class="blog-contact-row">
           <div class="blog-contact-info">
             <a href="tel:+17869727110" class="blog-contact-item">
